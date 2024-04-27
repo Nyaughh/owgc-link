@@ -5,20 +5,9 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Overwatch WhatsApp Group Chat",
   description: "Join Now",
-  // Add your OpenGraph image URL here
-  // openGraph: {
-  //   images: [
-  //     {
-  //       url: "https://pbs.twimg.com/media/Ff68VklaMAAB1uJ?format=jpg&name=large",
-  //       width: 1200,
-  //       height: 630,
-  //       alt: "Overwatch WhatsApp Group Chat",
-  //     },
-  //   ],
-  // },
 };
 
 export default function RootLayout({
