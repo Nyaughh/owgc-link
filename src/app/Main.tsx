@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 const Main = () => {
     return (
-        <div className="flex h-screen w-full bg-black bg-grid-white/[0.2] relative items-center justify-centermin-h-screen flex-col justify-between">
-            <div className="relative flex items-center justify-center flex-grow space-y-2">
+        <div className="flex h-screen w-full bg-black bg-grid-white/[0.2] relative items-center justify-center min-h-screen flex-col">
+            <div className="relative flex items-center justify-center flex-grow">
                 {' '}
                 {/* Added flex-grow and flex properties */}
                 <Image
@@ -16,14 +16,25 @@ const Main = () => {
                 />
             </div>
 
-            <div className="mb-32 flex justify-center">
+            <div className="mb-32 flex flex-col space-y-4 justify-center items-center w-full max-w-xs">
                 <a
                     href="https://chat.whatsapp.com/Dbf2dE08gdAHA7wrSHVjil"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 text-lg flex items-center" // Added flex and items-center
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 text-lg flex items-center justify-center w-full" // Added flex, items-center, justify-center, and w-full
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <h2 className={`font-semibold mr-2`}>Join</h2> {/* Added margin */}
+                    <h2 className={`font-semibold mr-2`}>Join WhatsApp</h2> {/* Added margin */}
+                    <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                        -&gt;
+                    </span>
+                </a>
+                <a
+                    href="https://discord.com/invite/kjGfYEmAQk"
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 text-lg flex items-center justify-center w-full" // Added flex, items-center, justify-center, and w-full
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h2 className={`font-semibold mr-2`}>Join Discord</h2> {/* Added margin */}
                     <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                         -&gt;
                     </span>
