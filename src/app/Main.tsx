@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Main = () => {
     return (
         <div className="flex h-screen w-full bg-black bg-grid-white/[0.2] relative items-center justify-center min-h-screen flex-col">
-            <div className="relative flex items-center justify-center flex-grow">
+            <div className="mb-10">
                 {' '}
                 {/* Added flex-grow and flex properties */}
                 <Image
