@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'Overwatch WhatsApp Group Chat',
+    title: 'Overwatch Community Links',
     description: 'Join Now'
 }
 
